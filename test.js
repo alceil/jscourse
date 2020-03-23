@@ -1,6 +1,3 @@
-var links=document.getElementsByTagName("a");
-for(i=1;i<links.length;i++)
-{
-    links[i].className='links-' + i;
-  
-}
+var a =7;
+var b =6;
+console.log(a + b);
