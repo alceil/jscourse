@@ -1,13 +1,9 @@
 var kindiage=29;
-if(kindiage>30)
+if(kindiage>30 || kindiage<15)
 {
     document.write("wubba lubba dub dub");
 }
-else if(kindiage>20)
+else 
 {
     document.write('rickity rick!');
-}
-else if(kindiage>10)
-{
-    document
 }
