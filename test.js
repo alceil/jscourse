@@ -1,14 +1,6 @@
-for(i=1;i<10;i++)
+var links=document.getElementsByTagName("a");
+for(i=1;i<links.length;i++)
 {
-    if(i==3||i==5)
-    {
-        continue;
-    }
-    
-    console.log(i);
-    if(i==7)
-    {
-        break;
-    }
+    links[i].className='links-' + i;
+  
 }
-document.write('broken out of the looped');
