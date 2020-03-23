@@ -1,9 +1,6 @@
-var kindiage=29;
-if(kindiage>30 || kindiage<15)
+var age=5;
+while(age)
 {
-    document.write("wubba lubba dub dub");
+    console.log('you are less than 10 kid ')
 }
-else 
-{
-    document.write('rickity rick!');
-}
+document.write('you are over 10 now kid')
