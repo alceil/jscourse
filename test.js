@@ -1,5 +1,6 @@
-for(age=5;age<10;age++)
+var links=document.getElementsByTagName("a");
+for(i=1;i<=links.length;i++)
 {
-    console.log('you are less than 10 kid ');
+    console.log('this is link no'+i);
 }
-document.write('you are over 10 now kid');
+document.write('all links are now looped');
