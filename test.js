@@ -1,5 +1,9 @@
 for(i=1;i<10;i++)
 {
+    if(i==3||i==5)
+    {
+        continue;
+    }
     
     console.log(i);
     if(i==7)
@@ -7,4 +11,4 @@ for(i=1;i<10;i++)
         break;
     }
 }
-document.write('all links are now looped');
+document.write('broken out of the looped');
